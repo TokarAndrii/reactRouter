@@ -1,0 +1,43 @@
+.content{
+    min-height: calc(100vh - 60px);
+    overflow: hidden;
+    position: relative;
+}
+
+.homeLink{
+    position: absolute;
+    bottom: 20px;
+    right: 48%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.homeLinkTxt{
+    margin-left: 8px;
+}
+
+.aboutList{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutListItemLink{
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 0px 8px;
+    cursor: pointer;
+    text-decoration: none;
+    height: 100%;
+}
+
+.LinksList{
+    list-style-type: none;
+    float: left;
+}
+
+
+
